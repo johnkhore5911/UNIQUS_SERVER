@@ -1,0 +1,30 @@
+1> In test System , when the student refresh the browser the selected options get unSelected. In client/classroom/src/components/Test/TestView.jsx use localstorage to save user answer.-- DONE
+2> In test System , clear response button dont work to clear the response of the selected question.  In client/classroom/src/components/Test/TestView.jsx -- DONE
+3> The cancel Submit button that used to appear while submitting the test didnt actually closed the notification modal in TestView.jsx file. -- DONE
+4> add full screen to the test mode soo when user try to exit it show warning. -- DONE
+5> To disable right click on the TestView Page. -- DONE
+4> add full screen to the test mode soo when user try to exit it show warning. -- DONE
+5> To disable right click on the TestView Page. -- DONE
+6> Try adding Navigation context or something similar to the breadcumbs using the window history api . < on hold >
+7> Disabling the Screen capture at the Testview page. <Not possible as screen capture is os level feture cant control it>
+8> TO prevent the text selection on the TestView page. -- DONE
+9> Timer get refreshed to start on refreshing the test view page. -- DONE
+10> In test System , when the student refresh the browser the selected options get unSelected. In client/classroom/src/components/Test/TestView.jsx -- DONE
+11> In test System , clear response button dont work to clear the response of the selected question.  In client/classroom/src/components/Test/TestView.jsx -- DONE
+
+A. Adjust the position of qustion image displayed at testingQuestionForm --Abhay
+B. After deleting a test a blank white screen comes -- Abhay
+C. Check for duplicate name of resources at the backend -- Abhay
+D. On posting test adjust loading bar and display proper message on successful test posting -- Abhay
+E. Leave classroom feature not working server sending status 404, student not able to leave the classroom --Abhay
+
+
+Additional Bugs left knowingly
+1. While clicking on delete chapter in curriculum structure in mobilesView, the topicsCard is shown which should not popup while clicking delete chapter button
+2. Only 2 classrooms are visible in both mobilesView and laptopView at classroom settings in AccountSettings
+3. while clicking 3 dots of notes or classroom in classroom settings the options card for even vlaue selection gets displayed at extreme right in laptopView
+4. deleteClassroom options card do not closes on clickingOutsideModal
+5. When a student has given a test and then leaves/removed from classroom, at test_response page for teacher that student has not taken test 
+   is shown and his response is not shown to the teacher. -- Nischay
+6. In curriculum_structure, the first chapter is not selected by default hence, adding topic without manually seleting a chapter returns an error -- karan
+7. there is some issue with deadline at addTestToClassroom controller
